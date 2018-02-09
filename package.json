@@ -1,0 +1,27 @@
+{
+  "name": "typescript-unit-testing",
+  "version": "1.0.0",
+  "description": "Startup code for developing a TypeScript project using Karma and Jasmine for testing.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack",
+    "test": "node ./node_modules/karma/bin/karma start --single-run",
+    "test:watch": "node ./node_modules/karma/bin/karma start"
+  },
+  "author": "Dzulqarnain Nasir",
+  "license": "ISC",
+  "dependencies": {
+    "ts-loader": "3.5.0",
+    "typescript": "2.7.1",
+    "webpack": "3.10.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.8.6",
+    "jasmine-core": "2.99.1",
+    "karma": "2.0.0",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-jasmine": "1.1.1",
+    "karma-sourcemap-loader": "0.3.7",
+    "karma-webpack": "2.0.9"
+  }
+}
